@@ -10,7 +10,7 @@ import pandas as pd
 data = pd.read_csv("requirements.csv")
 
 try:
-    browser=webdriver.Chrome(r"C:\Users\djsam\Desktop\Files\Selenium_Drivers\chromedriver")
+    browser=webdriver.Chrome(r"C:\Users\djsam\Desktop\Files\Selenium_Drivers\chromedriver") #Add the directory to PATH
 except:
     browser=webdriver.Firefox()
 
