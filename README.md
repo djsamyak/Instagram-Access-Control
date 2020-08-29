@@ -1,5 +1,5 @@
-# Instagram-Access-Control
-An app based on webscraping to manage the access control of an Instagram account. The app allows you to generate a 10 digit radom alpha-numeric password and have it mailed to multiple recipients.
+# Instagram Access Control
+An app based on web automation to manage the access control of an Instagram account. The app allows you to generate a 10 digit radom alpha-numeric password and have it mailed to multiple recipients.
 
 ## Requirements
 - Python 3.8 or higher
