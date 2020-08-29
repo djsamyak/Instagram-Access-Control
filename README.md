@@ -2,11 +2,9 @@
 An app based on web automation to manage the access control of an Instagram account. The app allows you to generate a 10 digit radom alpha-numeric password and have it mailed to multiple recipients.
 
 ## Requirements
-- Python 3.8 or higher
 - Google Chrome, or Mozilla Firefox
 - Geckodriver for Mozilla Firefox, or
 - ChromeDriver for Google Chrome
-- Selenium for Python
 
 ## How-to:
 1. Edit `requirements.csv` as following:
