@@ -57,9 +57,14 @@ newPasscodeEntry.send_keys(generate_passcode(10))
 confirmPasscodeEntry = browser.find_element_by_css_selector("#cppConfirmPassword")
 confirmPasscodeEntry.send_keys(GET_old_passcode())
 
-# changePasscode = browser.find_element_by_css_selector("#react-root > section > main > div > article > form > div:nth-child(4) > div > div > button")
+changePasscode = browser.find_element_by_css_selector("#react-root > section > main > div > article > form > div:nth-child(4) > div > div > button")
+changePasscode.click()
 
 send_Mail(data)
+
+profileButon = browser.find_element_by_css_selector("#react-root > section > nav > div._8MQSO.Cx7Bp > div > div > div.ctQZg > div > div:nth-child(5)")
+profileButon.click()
+
 browser.close()
 
 

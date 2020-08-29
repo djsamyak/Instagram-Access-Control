@@ -46,5 +46,5 @@ Dear User,
 The updated password for {data["username"][0]} is {GET_old_passcode()}.'''
     print(message)
 
-    conn.sendmail("NODATA",data["NOTIF_ID"][0],message)
+    conn.sendmail("NODATA",data["NOTIF_ID"],message)
     conn.quit()
